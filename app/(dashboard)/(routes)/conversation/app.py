@@ -6,7 +6,7 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS for all domains
 
 # Initialize Co:here client
-COHERE_API_KEY = "r2qyZzWTvlhucdudG1YiiyhjcKqFRIzH36HnzfaG"
+COHERE_API_KEY = "r2qyZzWTvlhucdudG1YiiyhjcKq**********"
 co = cohere.Client(COHERE_API_KEY)
 
 @app.route("/generate", methods=["POST"])
