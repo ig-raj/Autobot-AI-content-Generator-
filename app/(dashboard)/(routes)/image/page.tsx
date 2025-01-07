@@ -9,7 +9,7 @@ const ImagePage: React.FC = () => {
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string>('');
 
-  const apiToken: string = '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';
+  const apiToken: string = 'hf_QVaEJjnOnPIPhoRiCzKmUSib************';
 
   const generateImage = async () => {
     setLoading(true);
